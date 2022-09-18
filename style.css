@@ -10,11 +10,11 @@ ul /* Itens não ordenados */
 }
 body /* Corpo fundo da pagina */
 {
-    background-image: url(./assets/bg.jpg);
+    background-image: url("./assets/meubg.png");
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214 ;
+    background-color: #021233f3 ;
 }
 body * /* Corpo text da pagina*/
 {
@@ -30,7 +30,7 @@ header div
 {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg,#9572fc 0%, #43e7ad 50.52%,#e2d45c 100%);
+    background-image: linear-gradient(90deg,#845EC2,#2C73D2,#0081CF,#0089BA,#008E9B,#008F7A);
     border-radius: 50%;
     display: flex;
     padding: 4px;
@@ -56,26 +56,27 @@ main /* menu */
 }
 section /* Grupo section */
 {
-    color: white;
-    background-image: linear-gradient(90deg,#9572fc 0%, #43e7ad 50.52%,#e2d45c 100%);
+    color: #fca311;
+    background-image: linear-gradient(90deg,#845EC2,#2C73D2,#0081CF,#0089BA,#008E9B,#008F7A);
     padding-top: 4px;
     border-radius: 10px;
 }
 section div
 {
-    background-color: #2a2634;
+    background-color: #0e1a33;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
 }
-section h2 /* Meus jogos */
+section h2 
 {
    letter-spacing: -0.47px;
 }
+/* It's changing the color of the text. */
 section p
 {
     letter-spacing: -0.18px;
-    color: #a1a1aa;
+    color: #e5e5e5;
 }
 section ul
 {
@@ -92,16 +93,15 @@ section ul li:hover
 {
 transform: scale(1.1);
 }
-.games-list img
+.movie-list img
 {
     width: 90px;
     border-radius: 8px;
 }
-.channel-list img
+.series-list img
 {
-    border-radius: 50%;
-    width: 70px;
-    border: 1px solid #443e54 ;
+    width: 90px;
+    border-radius: 8px;
 }
 
 /* Animação */
